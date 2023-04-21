@@ -77,5 +77,6 @@
 
 </body>
 <script src="app.js"></script>
+<script src="refresh.js"></script>
 
 </html>
