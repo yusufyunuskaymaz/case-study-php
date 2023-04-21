@@ -1,4 +1,4 @@
-<?php include "login.php" ?>
+<?php include "./components/login.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,20 +17,20 @@
 <body>
     <div class="w-3/4 relative overflow-x-auto shadow-2xl sm:rounded-lg pt-1 mt-20 text-center mx-auto">
 
-        <?php include "search.php" ?>
-        <?php include "dataTable.php" ?>
+        <?php include "./components/search.php" ?>
+        <?php include "./components/dataTable.php" ?>
     </div>
 
     <!-- Modal toggle -->
-    <?php include "modal.php" ?>
+    <?php include "./components/modal.php" ?>
 
 
 
 
 </body>
-<script src="app.js"></script>
-<script src="refresh.js"></script>
-<script src="modal.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/refresh.js"></script>
+<script src="./js/modal.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 
 
